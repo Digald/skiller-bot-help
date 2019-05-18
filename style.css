@@ -1,3 +1,7 @@
+body {
+  background-color: #222;
+}
+
 table {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -11,7 +15,11 @@ table th {
 }
 
 table tr:nth-child(even) {
-  background-color: rgb(240, 240, 240);
+  background-color: white;
+}
+
+table tr:nth-child(odd) {
+  background-color: white;
 }
 
 table tr:hover {
